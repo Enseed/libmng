@@ -1,0 +1,5 @@
+*.user
+**/Debug/
+**/Debug Static/
+**/Release/
+**/Release Static/

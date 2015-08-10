@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\..\libmng\config.h" />
+    <ClInclude Include="..\..\..\libmng\libmng.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_chunks.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_chunk_descr.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_chunk_io.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_chunk_prc.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_cms.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_conf.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_data.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_display.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_dither.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_error.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_filter.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_jpeg.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_memory.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_objects.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_object_prc.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_pixels.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_read.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_trace.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_types.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_write.h" />
+    <ClInclude Include="..\..\..\libmng\libmng_zlib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\libmng\libmng_callback_xs.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_chunk_descr.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_chunk_io.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_chunk_prc.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_chunk_xs.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_cms.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_display.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_dither.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_error.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_filter.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_hlapi.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_jpeg.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_object_prc.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_pixels.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_prop_xs.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_read.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_trace.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_write.c" />
+    <ClCompile Include="..\..\..\libmng\libmng_zlib.c" />
+  </ItemGroup>
+</Project>

@@ -255,7 +255,7 @@ typedef int boolean;
 #define MNG_LOCAL static
 
 #if defined(MNG_DLL) && defined(WIN32) /* setup DLL calling conventions */ 
-#define MNG_DECL __stdcall
+#define MNG_DECL 
 #if defined(MNG_BUILD_DLL)
 #define MNG_EXT __declspec(dllexport)
 #elif defined(MNG_USE_DLL)
